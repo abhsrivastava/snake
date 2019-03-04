@@ -3,4 +3,4 @@
 project/.bloop
 project/target
 target
-.DS_Store
+**/.DS_Store
