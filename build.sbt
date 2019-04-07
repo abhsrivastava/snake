@@ -6,6 +6,7 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "snake",
+    Compile / run / fork := true,
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.0.5"
     )
